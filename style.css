@@ -1,0 +1,174 @@
+h1{
+font-family: 'Akaya Kanadaka';
+color: white;
+vertical-align: middle;
+text-shadow: orangered 4px 1px;
+font-size: 2.5rem;
+}
+body{
+    background-color: rgb(230, 194, 118);
+
+}
+
+header{
+    background-color: coral;
+    width: 100vw;
+    height: 12vh;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+  
+}
+
+
+div.menu{
+    border: red 1px solid;
+    height: 50px;
+    
+    position: relative;
+    bottom: 26px;
+    background-color: rgb(240, 223, 77);
+}
+
+
+ul {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+  }
+  
+  li {
+    display: inline;
+    background-color: coral;
+    margin-right: 10px;
+    border: #D7C8B6 2px solid;
+    position: relative;
+    left: 550px;
+    top: 10px;
+    
+  }
+  
+  a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: orangered;
+    
+  }
+div.imagen{
+    background-image: url(img/naranja2.svg);
+    background-repeat: repeat-x;
+    height: 5%;
+    position: relative;
+    bottom: 5%;
+
+}
+
+div.imagenb{
+    background-image: url(img/naranja2.svg);
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 7%;
+}
+
+  div.todo{
+    border-image-repeat: repeat;
+
+        
+        height: 600px;
+  }
+
+  div.somos{
+      width: 50%;
+      height: 30%;
+      border: red 4px solid;
+      background-color: rgb(255, 163, 130);
+      position: absolute;
+      top: 20%;
+      right: 25%;
+      z-index: 2;
+  }
+  
+
+  div.somos blockquote{
+      text-align: center;
+      color: red;
+      font-size: 1.5rem;
+  }
+  span.borde{
+      border-top: red 1px solid;
+  }
+
+
+  div.recibimos{
+      width: 30%;
+      height: 40%;
+      background-color: rgb(248, 243, 168);
+      border: yellowgreen 4px solid;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+  }
+  div.recibimos:hover{
+      z-index: 3;
+  }
+  div.recibimos blockquote{
+    color: yellow;
+    text-align: left;
+    
+
+  }
+  div.azul{
+    width: 30%;
+    height: 40%;
+    background-color: rgb(176, 228, 235);
+    border: rgb(45, 204, 209) 4px solid;
+    position: absolute;
+      top: 40%;
+      right: 10%;
+}
+div.azul:hover{
+    z-index: 3;
+}
+div.azul blockquote{
+color: sandybrown;
+text-align: right;
+}
+
+  div.pie{
+    background-color: coral;
+  }
+
+  div.pie2{
+    background-color: rgb(240, 223, 77);
+    text-align: center;
+    color: rgb(255, 94, 0);
+    padding: 8px;
+  }
+
+  blockquote.pag2{
+      position: absolute;
+      top: 40%;
+      right: 22.5%;
+      width: 380px;
+      
+      background-color: peru;
+      color: white;
+      
+  }
+
+
+  footer{
+      text-align: center;
+      background-color: rgb(240, 223, 77);
+      color: rgb(255, 94, 0);
+      padding: 8px;
+  }
